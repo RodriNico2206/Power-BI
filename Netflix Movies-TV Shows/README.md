@@ -7,7 +7,7 @@
 ## Introduction
 In this case, supposing that data set of netflix is cleaning, i performed several insights and visualizations useful to getting conclusion for this data base.
 
-## information of data set
+## Information of data set
 
 
 
