@@ -16,7 +16,7 @@ In this case, supposing that data set of netflix is cleaning, i performed severa
 - DAX Language:
 
 <div id="badges" align="center">
-  <img src="https://www.ati-mirage.com.au/wp-content/uploads/2021/03/powerbidax.png" alt="Profile Image" style="width: 80px; height: 80px;"/>
+  <img src="https://www.ati-mirage.com.au/wp-content/uploads/2021/03/powerbidax.png" alt="DAX Language" style="width: 100px; height: 60px;"/>
 </div>
 
 - Measures developed:
