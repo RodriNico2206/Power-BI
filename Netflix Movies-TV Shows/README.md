@@ -24,15 +24,27 @@ It has been developed through usage DAX language for the purpose of get informat
 
   - % de Películas en la plataforma = [N° de películas dentro de la plataforma]/[N° total de contenido disponible en la plataforma]
 
+  Calculates the percentage of movies relative to total content
+
   - % de Shows de televisión en la plataforma = [N° de Shows de televisión dentro de la plataforma]/[N° total de contenido disponible en la plataforma]
 
- - N° de películas dentro de la plataforma = CALCULATE([N° total de contenido disponible en la plataforma],
-  netflix_titulos[type]="Movie")
+  Calculates the percentage of TV shows relative to total content
 
- - N° de Shows de televisión dentro de la plataforma = CALCULATE([N° total de contenido disponible en la plataforma],
-  netflix_titulos[type]="TV Show")
+  - N° de películas dentro de la plataforma = CALCULATE([N° total de contenido disponible en la plataforma],
+    netflix_titulos[type]="Movie")
+  
+  Counts only movies in the content, i use CALCULATE to filter where type = "Movie", based on the total content count
 
- - N° total de contenido disponible en la plataforma = COUNT(netflix_titulos[listed_in])
+  - N° de Shows de televisión dentro de la plataforma = CALCULATE([N° total de contenido disponible en la plataforma],
+    netflix_titulos[type]="TV Show")
+  
+  Counts only TV shows in the content, i uses CALCULATE to filter where type = "TV Show", based on the total content count
 
- - Recuento de directores sin otros = CALCULATE(COUNTA(netflix_titulos[director]), 
-  FILTER(netflix_titulos, netflix_titulos[director]<>"Others") )
+  - N° total de contenido disponible en la plataforma = COUNT(netflix_titulos[listed_in])
+
+  Simple count of all items using the listed_in column, it was used COUNT function
+
+  - Recuento de directores sin otros = CALCULATE(COUNTA(netflix_titulos[director]), 
+    FILTER(netflix_titulos, netflix_titulos[director]<>"Others") )
+
+  Counts the number of directors excluding "Others". It was used COUNTA for director column. Moreover, i'm applying a FILTER to exclude entries where director = "Others"
