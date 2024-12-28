@@ -1,6 +1,8 @@
 # Welcome to own dashboard about Netflix movies and TV shows! 👋
 
-![Link to dashboard](https://github.com/RodriNico2206/Power-BI/blob/master/Netflix%20Movies-TV%20Shows/Netflix%20Movies-TV%20Shows.pdf)
+
+[![Netflix Dashboard](https://e7.pngegg.com/pngimages/495/355/png-clipart-hyperlink-computer-icons-link-building-link-miscellaneous-text.png)](https://github.com/RodriNico2206/Power-BI/blob/master/Netflix%20Movies-TV%20Shows/Netflix%20Movies-TV%20Shows.pdf)
+
 
 ## Introduction
 In this case, supposing that data set of netflix is cleaning, i performed several insights and visualizations useful to getting conclusion for this data base.
