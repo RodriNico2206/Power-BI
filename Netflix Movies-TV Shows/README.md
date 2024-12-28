@@ -1,13 +1,15 @@
 # Welcome to own dashboard about Netflix movies and TV shows! 👋
 
-![Link to dashboard](link_to_profile_banner_image)
+![Link to dashboard](https://github.com/RodriNico2206/Power-BI/blob/master/Netflix%20Movies-TV%20Shows/Netflix%20Movies-TV%20Shows.pdf)
 
 ## Introduction
 In this case, supposing that data set of netflix is cleaning, i performed several insights and visualizations useful to getting conclusion for this data base.
 
+## information of data set
 
 
-## Key Skills and Expertise
+
+## Development
 
 - DAX Language:
 
@@ -16,6 +18,7 @@ In this case, supposing that data set of netflix is cleaning, i performed severa
 </div>
 
 - Measures developed:
+It has been developed through usage DAX language for the purpose of get information about data
 
   - % de Películas en la plataforma = [N° de películas dentro de la plataforma]/[N° total de contenido disponible en la plataforma]
 
