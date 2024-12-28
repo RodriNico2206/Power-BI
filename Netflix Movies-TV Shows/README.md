@@ -1,7 +1,7 @@
 # Welcome to own dashboard about Netflix movies and TV shows! 👋
 
 
-[<img src="https://icon-library.com/images/link-icon-svg/link-icon-svg-29.jpg" width="300" height="200" alt="Netflix Dashboard">](https://github.com/RodriNico2206/Power-BI/blob/master/Netflix%20Movies-TV%20Shows/Netflix%20Movies-TV%20Shows.pdf)
+[<img src="https://icon-library.com/images/link-icon-svg/link-icon-svg-29.jpg" width="50" height="50" alt="Netflix Dashboard">](https://github.com/RodriNico2206/Power-BI/blob/master/Netflix%20Movies-TV%20Shows/Netflix%20Movies-TV%20Shows.pdf) [Netflix Dashboard](https://github.com/RodriNico2206/Power-BI/blob/master/Netflix%20Movies-TV%20Shows/Netflix%20Movies-TV%20Shows.pdf)
 
 
 ## Introduction
